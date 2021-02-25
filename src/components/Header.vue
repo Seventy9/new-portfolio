@@ -15,6 +15,10 @@
   width: 100%;
 }
 
+#header-title {
+  margin-bottom: 1.6rem;
+}
+
 #header-description {
   font-weight: 400;
   font-style: italic;
