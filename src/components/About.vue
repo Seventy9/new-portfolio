@@ -25,8 +25,8 @@
 <style lang="scss">
 #about {
   align-items: center;
-  background-color: var(--main-grey);
-  color: var(--main-white);
+  background-color: var(--background-dark);
+  color: var(--text-light);
   display: flex;
   flex-direction: column;
   padding: 10rem 2rem;
@@ -45,6 +45,7 @@
 }
 
 #about-description {
+  line-height: 2.4rem;
   max-width: 80rem;
 }
 </style>

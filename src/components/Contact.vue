@@ -64,24 +64,25 @@
 }
 
 #contact-title {
+  margin-bottom: 5rem;
   max-width: 80rem;
 }
 
 #contact-list {
   display: flex;
   justify-content: space-between;
-  margin: 5rem 0;
+  margin-bottom: 5rem;
   max-width: 80rem;
   width: 100%;
 }
 
 .contact-list-link {
-  color: var(--main-grey);
+  color: var(--text-dark);
   font-size: 2rem;
 }
 
 .contact-list-link:hover {
-  color: var(--main-yellow);
+  color: var(--highlight-dark);
 }
 
 .contact-list-image {
@@ -89,7 +90,7 @@
 }
 
 #contact-email {
-  margin-bottom: 2rem;
+  margin-bottom: 5rem;
 }
 
 #contact-form {
@@ -101,8 +102,8 @@
 
 #name,
 #email {
-  background-color: var(--main-white);
-  border: 0.1rem solid var(--main-grey);
+  background-color: var(--background-light);
+  border: 0.1rem solid var(--text-dark);
   border-radius: 1rem;
   font-family: "Asap", sans-serif;
   font-size: 1.6rem;
@@ -113,8 +114,8 @@
 }
 
 #message {
-  background-color: var(--main-white);
-  border: 0.1rem solid var(--main-grey);
+  background-color: var(--background-light);
+  border: 0.1rem solid var(--text-dark);
   border-radius: 1rem;
   font-family: "Asap", sans-serif;
   font-size: 1.6rem;
@@ -132,21 +133,20 @@
 }
 
 #contact-form-button {
-  background-color: var(--main-grey);
+  background-color: var(--background-dark);
   border: none;
   border-radius: 1rem;
-  color: var(--main-white);
+  color: var(--text-light);
   font-family: "Asap", sans-serif;
-  font-size: 1.2rem;
+  font-size: 2.4rem;
   font-weight: 400;
-  margin: 2rem 0;
   padding: 1rem;
+  text-transform: uppercase;
   transition: 0.3s;
 }
 
 #contact-form-button:hover {
-  background-color: var(--main-yellow);
-  color: var(--main-gray);
+  background-color: var(--highlight-dark);
   cursor: pointer;
 }
 
@@ -156,8 +156,8 @@
     flex-direction: column;
     width: 200px;
   }
-  .contact-list-link:hover {
-    transform: translateX(10px);
+  .contact-list-link:not(:last-child) {
+    margin-bottom: 1.6rem;
   }
 }
 </style>

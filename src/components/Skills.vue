@@ -65,6 +65,10 @@
   padding: 10rem 2rem 5rem;
 }
 
+#skills a {
+  color: var(--highlight-dark);
+}
+
 #skills-title {
   margin-bottom: 10rem;
 }
@@ -95,19 +99,15 @@
 }
 
 .skills-item-image-left {
-  color: var(--main-yellow);
+  color: var(--highlight-dark);
   margin-right: 2rem;
   transition: 0.3s;
 }
 
 .skills-item-image-right {
-  color: var(--main-yellow);
+  color: var(--highlight-dark);
   margin-left: 2rem;
   transition: 0.3s;
-}
-
-.skills-item:hover .skills-item-image-right {
-  color: var(--main-yellow);
 }
 
 .skills-item-title-left {
@@ -118,6 +118,10 @@
 .skills-item-title-right {
   padding-bottom: 2rem;
   text-align: right;
+}
+
+.skills-item-description {
+  line-height: 2.4rem;
 }
 
 @media (max-width: 768px) {

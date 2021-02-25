@@ -35,8 +35,14 @@ export default {
 :root {
   --main-black: #222831;
   --main-grey: #393e46;
-  --main-white: #eeeeee;
-  --main-yellow: #ffd369;
+  --main-white: #e8f1ff;
+  --main-yellow: #ffa500;
+  --background-light: #e8f1ff;
+  --background-dark: #393e46;
+  --text-light: #e8f1ff;
+  --text-dark: #393e46;
+  --highlight-light: #ffa500;
+  --highlight-dark: #004194;
 }
 
 * {
@@ -66,12 +72,12 @@ a:hover {
 }
 
 body {
-  background-color: var(--main-white);
-  color: var(--main-black);
+  background-color: var(--background-light);
+  color: var(--text-dark);
   font-family: "Asap", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  line-height: 3rem;
+  line-height: 1.6rem;
 }
 
 h1,

@@ -16,9 +16,9 @@ export default {
 
 <style lang="scss">
 #footer {
-  background-color: var(--main-grey);
-  border-top: 0.2rem solid var(--main-yellow);
-  color: var(--main-white);
+  background-color: var(--background-dark);
+  border-top: 0.2rem solid var(--highlight-light);
+  color: var(--text-light);
   display: flex;
   justify-content: center;
   padding: 2rem 0;

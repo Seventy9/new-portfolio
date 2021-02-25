@@ -1,8 +1,8 @@
 <template>
-  <header id="header">
+  <div id="header">
     <h1 id="header-title">Allen Parish</h1>
     <p id="header-description">aspiring web developer in training</p>
-  </header>
+  </div>
 </template>
 
 <style lang="scss">
